@@ -8,13 +8,19 @@ body {
     margin-top: 0;
     color: #45b29a;
     font-family: 'Whisper', cursive;
-    font-size: 70px;
+    font-size: 5.625em;
     margin-bottom: 16px;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     color: #1e836c;
+    font-size: 2em;
+}
+
+p {
+    width: 50%;
+    margin: 0 auto;
 }
 
 h3 {
@@ -22,12 +28,9 @@ h3 {
     color: #45b29a;
 }
 
-p {
-
-}
-
 #name-p {
     color: #45b29a;
+    font-size: 2em;
 }
 
 .top-container {
@@ -44,7 +47,7 @@ p {
 .bottom-container {
     background-color: #e0ebe8;
     color: #45b29a;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .cloud-bottom {
@@ -71,6 +74,8 @@ hr {
     border-top: dotted;
     border-width: 6px;
     color: grey;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .btn {
@@ -78,7 +83,7 @@ hr {
     text-align: center;
     display: block;
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
     background: #45b29a;
     padding: 0.75em 2em 0.75em 2em;
     color: #1b7f69;
@@ -112,4 +117,10 @@ hr {
 
 .footer-link {
     padding-right: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+#last-text {
+    margin-bottom: 40px;
 }
