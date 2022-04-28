@@ -14,15 +14,20 @@ body {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #1e836c;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
 }
 
 p {
-    color: #45b29a;
 
+}
+
+#name-p {
+    color: #45b29a;
 }
 
 .top-container {
@@ -33,15 +38,13 @@ p {
 }
 
 .middle-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+
 }
 
 .bottom-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+    background-color: #e0ebe8;
+    color: #45b29a;
+    padding-top: 30px;
 }
 
 .cloud-bottom {
@@ -58,5 +61,55 @@ p {
 
 .mountain {
     padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+}
 
+hr {
+    width: 3%;
+    border-style: none;
+    border-top: dotted;
+    border-width: 6px;
+    color: grey;
+}
+
+.btn {
+    font-size: .8em;
+    text-align: center;
+    display: block;
+    position: relative;
+    bottom: 10px;
+    background: #45b29a;
+    padding: 0.75em 2em 0.75em 2em;
+    color: #1b7f69;
+    text-decoration: none;
+    margin: 0 auto ;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: 400;
+    border: 0;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-transform: uppercase;
+    width: 100px;
+
+
+}
+
+.profile {
+    padding-top: 20px;
+}
+
+.python {
+    height: 128px;
+    width: 128px;
+}
+
+.web-design {
+    height: 128px;
+    width: 128px;
+}
+
+.footer-link {
+    padding-right: 10px;
 }
